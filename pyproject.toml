@@ -1,0 +1,13 @@
+[project]
+name = "ai-image-upscaler"
+version = "0.1.0"
+description = "Offline AI Image Upscaler using OpenCV DNN"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "opencv-contrib-python>=4.13.0.92",
+    "requests>=2.33.1",
+    "supabase>=2.28.3",
+    "tkinterdnd2",
+]

@@ -1,3 +1,5 @@
+🌐 **Read this in other languages:** [English](README.md) | [🇰🇷 한국어 (Korean)](README_ko.md)
+
 # 📸 AI Image Upscaler (4K Restoration)
 
 ![Banner Image](https://via.placeholder.com/800x400?text=AI+Image+Upscaler)

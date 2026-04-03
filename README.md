@@ -9,12 +9,14 @@ This project is a 100% free, offline-capable AI Image Upscaler that utilizes **R
 You don't need to install anything on your PC. You can run this directly using Google's free GPUs.
 복잡한 파이썬 환경 설정 없이 구글 서버를 통해 바로 실행할 수 있습니다. 
 
-👉 **[Run in Google Colab (https://colab.research.google.com/drive/1eM_Zu-t_Rqivxsx6dvSf6J6SETCQG5b2?usp=sharing)](#)** *(# 자리에 코랩 링크 삽입)*
+👉 **[Run in Google Colab](https://colab.research.google.com/drive/1eM_Zu-t_Rqivxsx6dvSf6J6SETCQG5b2?usp=sharing)**
 
 ### 💡 How to use / 사용 방법
 1. Click the Colab link above. / 위 코랩 링크를 클릭합니다.
 2. Go to `File` > `Save a copy in Drive`. / 화면 좌측 상단 메뉴에서 `파일` > `드라이브에 사본 저장`을 누릅니다.
 3. Click the Play (▶) button on the cells and upload your blurry photo! / 각 셀의 재생(▶) 버튼을 누르고 흐릿한 사진을 업로드합니다.
+
+💻 **[GitHub Repository](https://github.com/gohard-lab/ai_image_upscaler)**
 
 ## 📺 Video Tutorial (사용법 영상 가이드)
 자세한 작동 원리와 전체 코딩 과정이 궁금하시다면 아래 영상을 참고해 주세요.

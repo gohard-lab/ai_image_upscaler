@@ -1,7 +1,5 @@
 # 📸 AI Image Upscaler (4K 화질 개선기)
 
-![Banner Image](https://via.placeholder.com/800x400?text=AI+Image+Upscaler) *(여기에 나중에 유튜브 썸네일이나 결과물 이미지를 넣으시면 좋습니다)*
-
 This project is a 100% free, offline-capable AI Image Upscaler that utilizes **Real-ESRGAN** and **GFPGAN** to restore blurry, low-resolution photos into crisp 4K images. It efficiently reconstructs fine details like hair, fur, and skin textures.
 본 프로젝트는 **Real-ESRGAN**과 **GFPGAN** 모델을 활용하여 흐릿한 저해상도 사진의 솜털과 피부 결까지 4K로 선명하게 복원해 내는 무료 오픈소스 화질 개선기입니다.
 

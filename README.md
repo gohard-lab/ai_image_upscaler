@@ -16,13 +16,12 @@ You don't need to install anything on your PC. You can run this directly using G
 2. Go to `File` > `Save a copy in Drive`. / 화면 좌측 상단 메뉴에서 `파일` > `드라이브에 사본 저장`을 누릅니다.
 3. Click the Play (▶) button on the cells and upload your blurry photo! / 각 셀의 재생(▶) 버튼을 누르고 흐릿한 사진을 업로드합니다.
 
-💻 **[GitHub Repository](https://github.com/gohard-lab/ai_image_upscaler)**
-
 ## 📺 Video Tutorial (사용법 영상 가이드)
 자세한 작동 원리와 전체 코딩 과정이 궁금하시다면 아래 영상을 참고해 주세요.
 If you want to understand how the code works step-by-step, watch the full tutorial on my channel:
 
-[![YouTube Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) *(YOUR_VIDEO_ID 자리에 영상 고유 주소 삽입)*
+👉 **[YouTube Video](https://youtu.be/CKw5RHBLZf4)**
+
 
 ## ⭐ Wait! Are you a Cherry-Picker? (잠깐, 그냥 가시려고요?)
 

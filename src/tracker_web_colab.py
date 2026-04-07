@@ -9,19 +9,19 @@ from datetime import datetime, timezone
 from google.colab import userdata
 
 
-@st.cache_resource
 def get_supabase_client():
     try:
         url = userdata.get('SUPABASE_URL')
         key = userdata.get('SUPABASE_KEY')
-    except KeyError:
-        st.error("🚨 데이터베이스 연결 설정(secrets)이 누락되었습니다!")
+        
+        if not url or not key:
+            print("🚨 데이터베이스 URL 또는 Key가 비어있습니다!")
+            return None
+            
+        return create_client(url, key)
+    except Exception as e:
+        print(f"🚨 연결 실패: {e}")
         return None
-
-    if not url or not key:
-        return None
-    
-    return create_client(url, key)
 
 
 def get_real_client_ip():

@@ -49,27 +49,29 @@ def get_or_create_session_id():
 
 def log_app_usage(app_name, action, details=None):
     try:
-        # 1. 환경 변수 로드 (이 부분이 함수 안에 있는지 확인)
+        # 1. 환경 변수 로드
         url = userdata.get('SUPABASE_URL')
         key = userdata.get('SUPABASE_KEY')
+        
+        if not url or not key:
+            return False # 열쇠(🔑) 설정 누락 시
+
         supabase = create_client(url, key)
 
-        # 2. 위치 정보 로직이 있다면 잠시 주석 처리하거나 try-except로 감싸기
-        # (위치 정보 실패가 전체 로그 실패로 이어지지 않게 하기 위함)
-        
+        # 2. 데이터 구성 (불필요한 위치 정보 API 호출 제거)
         data = {
             "app_name": app_name,
             "action": action,
             "details": details if isinstance(details, dict) else {"info": str(details)}
         }
 
-        # 3. 테이블 이름 확인: "usage_logs"
-        response = supabase.table("usage_logs").insert(data).execute()
+        # 3. 전송 (테이블 이름 정확히 확인!)
+        supabase.table("usage_logs").insert(data).execute()
         return True
 
     except Exception as e:
-        # 에러가 나면 무엇 때문인지 출력하게 잠시 수정
-        print(f"🚨 Tracker Module Error: {e}") 
+        # 🚨 중요: 지금은 에러를 봐야 하니 출력을 켭니다.
+        print(f"DEBUG - Tracker Error: {e}") 
         return False
         
 
